@@ -251,7 +251,7 @@ new Chart(document.getElementById("otro"), {
                 ticks: {
                     stepSize: 1,
                     callback: function(value) {
-                        if (value === 1) return "Universidades Estatales / CRUCH";
+                        if (value === 1) return "Universidades Estatales";
                         if (value === 2) return "Universidades Privadas";
                         return "";
                     },
