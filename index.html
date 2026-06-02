@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Economía del Diseño</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"/>
+		<link href="style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <nav>
+            <div>
+                <span>
+                   
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="32" height="32" fill="#e33e1b">
+                        <path d="M50.06,87.27a7.38,7.38,0,1,1,7.5-7.38A7.53,7.53,0,0,1,50.06,87.27ZM52.4,64.15c2.58,0,3.69-1.24,3.81-4.56l1.11-41.32c.12-3.82-1.23-5.54-4.8-5.54h-5c-3.32,0-4.8,1.72-4.68,5.54l1.11,41.32c.12,3.32,1.23,4.56,3.69,4.56Z" />
+                    </svg>
+                    Not Found
+                </span>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                </svg>
+            </div>
+        </nav>
+        
+        <header>
+            <img src="header.webp"/>
+            <h3>DISEÑO EN CHILE</h3>
+            <h1>Economía del Diseño</h1>
+            <h2>Relación entre aranceles, acreditación y flexibilidad horaria en universidades chilenas</h2>
+            <address>Por <a href="https://github.com/YonahKJ">Paloma Vargas</a>, <a href="#">Gastón Meneses</a> y <a href="https://github.com/profesorfaco">Felipe Cortez</a></address>
+            <time>Publicado el 02 de junio, 2026 05:00 p.m. GMT-4</time>
+        </header>
+
+        <main id="contenedor">
+
+            <p>En Chile, <a href="https://bcn.cl/2ewsw" target="_blank">la ley</a> obliga a acreditarse a las instituciones de educación superior. Carreras, entre las que se cuentan las de Diseño, quedan exentas de esta obligatoriedad.</p>
+
+            <p>Cada acreditación obligatoria e institucional evalúa el cumplimiento del proyecto corporativo y verifica la existencia de mecanismos eficaces de autorregulación y de aseguramiento de la calidad. A partir del resultado de cada evaluación, la <a href="https://www.cnachile.cl/Paginas/Acreditacion-institucional.aspx">Comisión Nacional de Acreditación (<small>CNA</small>)</a> determina el plazo para la próxima, con tres niveles de cumplimiento:</p>
+
+            <ul>
+                <li><em>Acreditada en nivel de excelencia:</em> de 6 a 7 años.</li>
+                <li><em>Acreditada en nivel avanzado:</em> de 4 a 5 años.</li>
+                <li><em>Acreditada en nivel básico:</em> 3 años.</li>
+            </ul>
+
+            <p>Por acotar, podemos <em>revisar las acreditaciones de las universidades</em>, que son las instituciones responsables de ofrecer el 35,82% de las vacantes totales de la educación superior para carreras de Diseño en 2026 (2.717 cupos del total de 7.586, según registros del <a href="https://www.mifuturo.cl/bases-de-datos-de-oferta-academica/" target="_blank">Servicio de Información de Educación Superior, <small>SIES</small></a>).</p>
+
+            <p>Revisando estas acreditaciones, podemos encontrar plazos de acreditación que oscilan entre los 3 y los 7 años.
+            </p>
+
+            <h4>¿Existe una correlación directa entre el nivel de acreditación de una universidad y el costo de su arancel anual?</h4>
+
+            <p>En el siguiente gráfico podemos ver la respuesta.</p>
+
+            <figure>
+                <canvas id="dispersion"></canvas>
+                <figcaption>
+                    Años de acreditación institucional y arancel del programa. Datos 2026, obtenidos del
+                    <a href="https://www.mifuturo.cl/servicio-de-informacion-de-educacion-superior/" target="_blank">Servicio de Información de Educación Superior (SIES)</a>, de la Subsecretaría de Educación Superior y de la <a href="https://www.cnachile.cl/Paginas/Inicio.aspx" target="_blank">Comisión Nacional de Acreditación</a>.
+                </figcaption>
+            </figure>
+
+            <p>Para visualizar patrones en estructuras complejas, los <a href="https://datavizcatalogue.com/ES/metodos/diagrama_de_dispersion.html" target="_blank">diagramas de distribución</a> resultan idóneos. Al proyectar una colección de puntos mediante coordenadas cartesianas, el cruce de las variables en los ejes horizontal y vertical permite detectar la presencia y fuerza de una correlación entre ambas.</p>
+
+            <p>Al trazar una línea de mejor ajuste entre el programa de menor costo y acreditación básica (Diseño de Interiores y Ambientes en la <small>UNIACC</small>) hasta la opción de mayor costo y acreditación (Diseño en la <small>PUC</small>), se observa una pendiente ascendente en la distribución de los puntos. Si bien esto sugiere una correlación positiva, donde un mayor número de años de acreditación tiende a coincidir con aranceles más altos, la fuerza de correlación de débil y los valores atípicos son varios.</p>
+
+            <h4>¿Cómo se distribuye la brecha económica del arancel en las carreras de Diseño según el carácter de la universidad (Estatal vs. Privada) y qué tan flexible es su oferta horaria/presencial?</h4>
+			
+			<figure>
+                <canvas id="otro"></canvas>
+                <figcaption>
+                    Arancel promedio según carácter de la institución y modalidad de estudio. Datos 2026, obtenidos del <a href="https://www.mifuturo.cl/servicio-de-informacion-de-educacion-superior/" target="_blank">Servicio de Información de Educación Superior (SIES)</a>, de la Subsecretaría de Educación Superior.
+                </figcaption>
+            </figure>
+
+            <p>Para analizar la distribución y densidad de una colección de datos agrupados, el <a href="https://datavizcatalogue.com/ES/metodos/diagrama_de_dispersion.html" target="_blank">diagrama de dispersión</a> resulta una herramienta idónea. Al proyectar cada programa académico mediante coordenadas cartesianas, el eje vertical despliega la escala de valores correspondientes a los aranceles, mientras que el eje horizontal organiza discretamente los sectores institucionales (Universidades Estatales vs. Privadas).</p>
+
+            <p>Esta visualización utiliza una técnica de dispersión aleatoria controlada (jittering) en su eje categórico, lo que separa horizontalmente los puntos para revelar la concentración real y dispersión de los precios en el mercado. A través de este método, el cruce de variables permite detectar de forma inmediata patrones geométricos y anomalías (como el aislamiento de la oferta semipresencial), superando las limitaciones de los promedios tradicionales al exhibir el universo completo de datos sin que los puntos se solapen entre sí.</p>
+            
+            <h5>Fuentes</h5>
+            <p><a href="https://mifuturo.cl/buscador-de-carreras/" target="_blank">Mi futuro Mineduc</a>; <a href="https://acceso-sup.mineduc.cl/acceso-buscador/buscador-cu" target="_blank">Acceso Mineduc - Buscador de Carreras Universitarias</a>; <a href="https://www.eligecarrera.cl/aspx/index.aspx" target="_blank">Elige Carrera</a></p>
+        </main>
+
+        <footer>
+            <div>
+                <a href="https://www.reuters.com/graphics/IRAN-CRISIS/OIL-CONSUMERS/akpeyynmypr/" target="_blank"
+                    >Inspirado en Reuters</a
+                >
+                <a href="https://github.com/profesorfaco/troncal">Diseño y visualización de información</a>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	    <script src="script.js"></script>
+
+
+    </body>
+</html>
