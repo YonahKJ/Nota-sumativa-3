@@ -175,7 +175,7 @@ new Chart(document.getElementById("otro"), {
         datasets: [
             {
                 label: "Jornada Diurna",
-                backgroundColor: "rgba(241, 142, 45, 0.75)", // Naranja de tu gráfico 1
+                backgroundColor: "rgba(241, 142, 45, 0.75)",
                 borderColor: "rgba(241, 142, 45, 1)",
                 borderWidth: 1,
                 pointRadius: 6,
@@ -213,7 +213,7 @@ new Chart(document.getElementById("otro"), {
                     { x: aplicarJitter(2), y: 7148000, name: "DISEÑO DE VESTUARIO Y TEXTIL - UNIVERSIDAD ANDRES BELLO" },
                     { x: aplicarJitter(2), y: 7065000, name: "DISEÑO - UNIVERSIDAD ANDRES BELLO" },
                     { x: aplicarJitter(2), y: 7214218, name: "DISEÑO MENCION INDUSTRIAL/GRAFICO AMBIENTES - UNIVERSIDAD MAYOR" },
-                    { x: 2, y: 7597000, name: "DISEÑO GRAFICO DIGITAL - UNIVERSIDAD DIEGO PORTALES" }, // Dejado al centro como hito
+                    { x: 2, y: 7597000, name: "DISEÑO GRAFICO DIGITAL - UNIVERSIDAD DIEGO PORTALES" },
                     { x: aplicarJitter(2), y: 6000000, name: "INGENIERIA EN DISEÑO DE PRODUCTOS - UNIVERSIDAD TECNICA FEDERICO SANTA MARIA" },
                     { x: aplicarJitter(2), y: 5180000, name: "INGENIERIA EN FABRICACION Y DISEÑO INDUSTRIAL - UNIVERSIDAD TECNICA FEDERICO SANTA MARIA" },
                     { x: aplicarJitter(2), y: 9754692, name: "TÉCNICO NIVEL SUPERIOR EN DISEÑO GRÁFICO - UNIVERSIDAD ADOLFO IBAÑEZ" },
@@ -246,7 +246,7 @@ new Chart(document.getElementById("otro"), {
         scales: {
             x: {
                 type: 'linear',
-                min: 0.4, // Damos margen a los costados para el esparcido
+                min: 0.4,
                 max: 2.6,
                 ticks: {
                     stepSize: 1,
