@@ -223,7 +223,6 @@ new Chart(document.getElementById("otro"), {
                     { x: aplicarJitter(2), y: 4814000, name: "DISEÑO EN INTERACCION DIGITAL - UNIVERSIDAD GABRIELA MISTRAL" },
                     { x: aplicarJitter(2), y: 4814000, name: "DISEÑO EN MARKETING DIGITAL - UNIVERSIDAD GABRIELA MISTRAL" },
                     { x: aplicarJitter(2), y: 4210000, name: "DISEÑO DE IMAGEN ESPECIALIDAD MODA - UNIACC" },
-                    { x: aplicarJitter(2), y: 4030000, name: "DISEÑO DE INTERIORES Y AMBIENTES - UNIACC" },
                     { x: aplicarJitter(2), y: 4210000, name: "DISEÑO GRAFICO ESPECIALIDAD MULTIMEDIA - UNIACC" },
                     { x: aplicarJitter(2), y: 5900000, name: "INGENIERIA EN REALIDAD VIRTUAL Y DISEÑO DE JUEGOS DIGITALES - UNIVERSIDAD BERNARDO OHIGGINS" }
                 ]
@@ -236,8 +235,8 @@ new Chart(document.getElementById("otro"), {
                 pointRadius: 6,
                 pointHoverRadius: 8,
                 data: [
-                    { x: aplicarJitter(2), y: 2847000, name: "TÉCNICO NIVEL SUPERIOR EN ANIMACIÓN DIGITAL Y VIDEOJUEGO - UNIACC" },
-                    { x: aplicarJitter(2), y: 4814000, name: "DISEÑO EN MARKETING DIGITAL - UNIVERSIDAD GABRIELA MISTRAL" }
+                    { x: aplicarJitter(2), y: 2847000, name: "DISEÑO DE JUEGOS DIGITALES - UNIACC" },
+                    { x: aplicarJitter(2), y: 4814000, name: "DISEÑO DE INTERIORES Y AMBIENTES  - UNIACC" }
                 ]
             }
         ]
