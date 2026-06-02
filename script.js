@@ -217,7 +217,6 @@ new Chart(document.getElementById("otro"), {
                     { x: aplicarJitter(2), y: 6000000, name: "INGENIERIA EN DISEÑO DE PRODUCTOS - UNIVERSIDAD TECNICA FEDERICO SANTA MARIA" },
                     { x: aplicarJitter(2), y: 5180000, name: "INGENIERIA EN FABRICACION Y DISEÑO INDUSTRIAL - UNIVERSIDAD TECNICA FEDERICO SANTA MARIA" },
                     { x: aplicarJitter(2), y: 9754692, name: "TÉCNICO NIVEL SUPERIOR EN DISEÑO GRÁFICO - UNIVERSIDAD ADOLFO IBAÑEZ" },
-                    { x: aplicarJitter(2), y: 4814000, name: "DISEÑO DE EXPERIENCIAS INMERSIVAS Y VIDEOJUEGOS - UNIVERSIDAD GABRIELA MISTRAL" },
                     { x: aplicarJitter(2), y: 4814000, name: "DISEÑO DE VIDEOJUEGOS - UNIVERSIDAD GABRIELA MISTRAL" },
                     { x: aplicarJitter(2), y: 4814000, name: "DISEÑO EN ANIMACION DIGITAL - UNIVERSIDAD GABRIELA MISTRAL" },
                     { x: aplicarJitter(2), y: 4814000, name: "DISEÑO EN INTERACCION DIGITAL - UNIVERSIDAD GABRIELA MISTRAL" },
